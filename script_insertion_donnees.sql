@@ -1,7 +1,7 @@
-INSERT INTO Contact(idContact, last_name, first_name, address, is_professionnal, birth_date)
+INSERT INTO Contact(id_contact, last_name, first_name, address, is_professionnal, birth_date)
 
 VALUES
-(1, 'PICHAI', 'Sundar', '1600 Amphitheatre Parkway à Mountain View, Californie', '1', '1987-07-12'),
+(1, 'PICHAI', 'Sundar', 'Mountain View, Californie', '1', '1987-07-12'),
 (2, 'ZUCKERBERG', 'Mark', 'Palo Alto, Californie', '1', '1984-05-14'),
 (3, 'SON', 'Goku', 'Planet de Kaio Shin', '0', '1966-01-02'),
 (4, 'SON', 'Gohan', 'Terre', '0', '1986-02-04'),
@@ -22,4 +22,4 @@ VALUES
 (19, 'PONPON', 'Margot', '1 Allée des thermes 67689 HUTTENHEIM', '1', '1986-07-19'),
 (20, 'BOLT', 'Mathieu', '6 Allée des thermes 67840 BENFELD', '1', '1985-08-04'),
 (21, 'UNTEREINER', 'Louis', '26 Allée des thermes 67750 FEGERSHEIM', '1', '2012-09-12'),
-(22, 'PAGNOL', 'Oscar', '12 rue Jupiter 34990 JUVIGNAC', '1', '2014-05-13'),
+(22, 'PAGNOL', 'Oscar', '12 rue Jupiter 34990 JUVIGNAC', '1', '2014-05-13')

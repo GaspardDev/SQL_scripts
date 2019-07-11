@@ -7,12 +7,12 @@ USE Gestion_Contact;
 
 #Création de la table Contact
 CREATE TABLE IF NOT EXISTS Contact (
-    idContact INT UNSIGNED NOT NULL AUTO_INCREMENT,
+    id_contact INT UNSIGNED NOT NULL AUTO_INCREMENT,
     last_name VARCHAR(45) NOT NULL,
     first_name VARCHAR(45) NOT NULL,
     address VARCHAR(45) NOT NULL,
     is_professionnal TINYINT NOT NULL,
     birth_date DATE NOT NULL,
-    PRIMARY KEY (idContact)
+    PRIMARY KEY (id_contact)
 )
 ENGINE=INNODB;
